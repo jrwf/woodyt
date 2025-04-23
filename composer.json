@@ -2,6 +2,7 @@
     "name": "jrwf/woodyt",
     "description": "Popis vašeho vlastního tématu vzhledu pro Drupal.",
     "type": "drupal-theme",
+    "license": "GPL-2.0-or-later",
     "require": {
         "drupal/core": "^10 || ^11"
     }
