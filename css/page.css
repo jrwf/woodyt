@@ -1,0 +1,30 @@
+.field--name-field-intro-image {
+  margin-bottom: 2rem;
+}
+
+.field--name-field-content {
+  margin-bottom: 4rem;
+}
+
+.field--name-field-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.field--name-field-gallery .field__item {
+  margin: 0 1rem 1rem 0;
+}
+
+@media screen and (min-width: 991px) {
+  .field--name-field-intro-image {
+    position: relative;
+    top: 7px;
+    width: 50%;
+    max-width: 500px;
+    margin: 0 2rem 2rem 0;
+    float: left;
+  }
+
+}
+

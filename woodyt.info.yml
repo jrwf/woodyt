@@ -1,0 +1,43 @@
+name: WoodyT
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - woodyt/base
+  - woodyt/dialog
+  - woodyt/dropbutton
+  - woodyt/file
+  - woodyt/image-widget
+  - woodyt/indented
+  - woodyt/messages
+  - woodyt/node
+  - woodyt/progress
+  - woodyt/search-results
+  - woodyt/user
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - woodyt/user
+  core/drupal.dropbutton:
+    - woodyt/dropbutton
+  core/drupal.dialog:
+    - woodyt/dialog
+  file/drupal.file:
+    - woodyt/file
+  core/drupal.progress:
+    - woodyt/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.1.4'
+regions:
+  primary_menu: 'Primary menu'
+  header: 'Header'
+  secondary_menu: 'Secondary menu'
+  #  page_top: 'Page top'
+  #  page_bottom: 'Page bottom'
+  #  featured: 'Featured'
+  #  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
