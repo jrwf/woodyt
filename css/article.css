@@ -1,0 +1,50 @@
+/* Autor a datum */
+.node--type-article footer.node__meta {
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Uvodni obrazek */
+.field--name-field-uvodni-obrazek {
+    margin: 0 0 1.5rem 0;
+    position: relative;
+    top: 0.5rem;
+}
+
+/* Úvodní obrázek a popis */
+.media--view-mode-uvodni-obrazek-u-clanku {
+    margin: 0;
+}
+
+/* Obrázek */
+.field--name-field-media-image {
+    margin-bottom: 1rem;
+}
+
+/* Popis úvodního obrazku */
+.field--name-field-popis-obrazku {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height:  160%;
+    color: var(--dark-color);
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .field--name-field-uvodni-obrazek {
+        float: left;
+        margin: 0 3rem 2.5rem 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}

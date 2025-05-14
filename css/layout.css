@@ -58,11 +58,6 @@ main {
   border: 1px solid red;
 }
 
-footer {
-  height: 200px;
-  border: 1px solid red;
-}
-
 /* Natavení paddingu pro regiony */
 header .region.region-header,
   /*.region.region-primary-menu li a,*/

@@ -31,6 +31,8 @@ body {
   --light-color: #f1f1f1;
   --dark-color: #343a40;
 
+  --color-silver: silver;
+
   --font-family-base: 'Arial', sans-serif;
   --font-size-base: 1.6rem; /* 16px */
   --line-height-base: 1.5;
@@ -83,3 +85,21 @@ nav ul li a {
   background-color: var(--light-color);
 }
 
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+  .field--name-field-uvodni-obrazek {
+    float: left;
+    margin: 0 3rem 2.5rem 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}
