@@ -1,6 +1,8 @@
 .field--name-field-galerie {
+    display: flex;
     margin: 0 0 3rem 0;
-    padding: 0;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .field--name-field-galerie > .field__item {
@@ -21,7 +23,21 @@
     color: var(--dark-color);
 }
 
+@media screen and (min-width: 400px) {
+    .field--name-field-galerie {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .field--name-field-galerie > .field__item {
+        margin: 0 0 1rem 0;
+        flex: 0 0 calc((100% / 2) - 1rem);
+    }
+}
+
 @media screen and (min-width: 576px) {
+    /*
     .field--name-field-galerie {
         margin: 0 0 3rem 0;
         padding: 0;
@@ -35,6 +51,7 @@
         padding: 0;
         flex: 0 1 48%;
     }
+    */
 
 }
 

@@ -10,7 +10,7 @@
 
 .field--name-field-media-oembed-video {
     width: 100%; /* Nebo jiná požadovaná šířka */
-    /*max-width: 400px;*/
+    max-width: 400px;
     aspect-ratio: 16 / 9;
 }
 
@@ -45,12 +45,13 @@
 
 @media screen and (min-width: 992px) {
     .field--name-field-videa {
+        justify-content: flex-start;
     }
 
     .field--name-field-videa > .field__item {
-        margin: 0 0 1rem 0;
+        margin: 0 1rem 1rem 0;
         flex: 0 0 calc((100% / 3) - 1rem);
-        border: 1px solid red;
+        border: 1px solid navy;
     }
 
 }
