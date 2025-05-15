@@ -53,8 +53,8 @@ p {
 }
 
 a {
-  color: var(--primary-color);
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
 }
 
 a:hover {

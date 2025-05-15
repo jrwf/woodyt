@@ -5,7 +5,7 @@ base:
   css:
     base:
       css/main.css: {}
-      #      css/layout.css: {}
+      css/frontpage.css: {}
       css/header.css: {}
       css/primary-menu.css: {}
       css/secondary-menu.css: {}
@@ -15,6 +15,7 @@ base:
       css/footer.css: {}
       css/base/variables.css: {}
       css/base/variables.pcss.css: {}
+      css/article/article.css: {}
       css/article/article-initial-picture.css: {}
       css/article/article-content.css: {}
       css/article/article-gallery.css: {}
