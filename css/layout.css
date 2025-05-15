@@ -49,13 +49,11 @@ main {
 .layout-sidebar-first {
   order: 2; /* Zobrazení jako druhý blok */
   width: 100%; /* Zabírá celou šířku */
-  border: 1px solid red;
 }
 
 .layout-sidebar-second {
   order: 3; /* Zobrazení jako třetí blok */
   width: 100%; /* Zabírá celou šířku */
-  border: 1px solid red;
 }
 
 /* Natavení paddingu pro regiony */

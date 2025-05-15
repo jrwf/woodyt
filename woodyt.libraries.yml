@@ -11,6 +11,7 @@ base:
       css/secondary-menu.css: {}
       css/content.css: {}
       css/page.css: {}
+      css/sidebar.css: {}
       css/footer.css: {}
       css/base/variables.css: {}
       css/base/variables.pcss.css: {}

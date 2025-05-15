@@ -1,0 +1,28 @@
+aside {
+}
+
+aside nav {
+}
+
+aside nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+aside nav ul li {
+    margin: 0 0 0.5rem 0;
+}
+
+aside nav ul li a {
+    display: block;
+    padding: 1rem 2rem;
+    color: black;
+    font-size: 1.6rem;
+    background-color: var(--color-silver);
+}
+
+aside nav ul li a:hover {
+    color: black;
+    background-color: var(--secondary-color);
+}
