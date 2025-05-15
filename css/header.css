@@ -8,9 +8,17 @@ header {
   flex-wrap: wrap;
 }
 
+.block-system-branding-block {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .site-logo {
-  margin: 0 2rem 1rem 0;
-  width: 100px;
+  margin: 0 1rem 1rem 0;
+  flex: 0 1 100px;
+  display: block;
 }
 
 .site-logo img {
@@ -22,12 +30,13 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .site-name {
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 1.5rem;
 }
 
 .site-slogan {
