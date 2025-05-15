@@ -1,0 +1,25 @@
+.field--name-field-content {
+    margin: 0 0 3rem 0;
+    padding: 0;
+}
+
+.field--name-field-content p {
+    margin: 0 0 1.5rem 0;
+    line-height: 160%;
+    font-size: 1.7rem;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}

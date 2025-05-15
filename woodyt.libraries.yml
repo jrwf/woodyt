@@ -14,7 +14,9 @@ base:
       css/footer.css: {}
       css/base/variables.css: {}
       css/base/variables.pcss.css: {}
-      css/article.css: {}
+      css/article/article-initial-picture.css: {}
+      css/article/article-content.css: {}
+      css/article/article-gallery.css: {}
     layout:
       css/layout.css: {}
     component:
