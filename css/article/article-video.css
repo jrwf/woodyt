@@ -30,7 +30,6 @@
     .field--name-field-videa > .field__item {
         margin: 0 0 1rem 0;
         flex: 0 0 calc((100% / 2) - 1rem);
-        border: 1px solid navy;
     }
 
 }
@@ -51,7 +50,6 @@
     .field--name-field-videa > .field__item {
         margin: 0 1rem 1rem 0;
         flex: 0 0 calc((100% / 3) - 1rem);
-        border: 1px solid navy;
     }
 
 }
