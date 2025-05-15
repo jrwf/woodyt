@@ -23,7 +23,7 @@ body {
 /* Variables */
 :root {
   --primary-color: #007bff;
-  --secondary-color: #6c757d;
+  --secondary-color: #dfdfdf;
   --success-color: #28a745;
   --danger-color: #dc3545;
   --warning-color: #ffc107;

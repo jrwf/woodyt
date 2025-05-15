@@ -3,7 +3,6 @@
 }
 
 .region.region-primary-menu {
-  border: 1px solid red;
   width: 100%;
 }
 
@@ -15,7 +14,6 @@
   max-width: 1500px;
   padding: 0;
   margin: 0 auto;
-  border: 1px solid navy;
 }
 
 /* Header */
@@ -24,7 +22,6 @@ header .region.region-header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border: 1px solid red;
 }
 
 .region.region-secondary-menu {
@@ -37,7 +34,6 @@ main {
   flex-wrap: wrap;
   flex-direction: column; /* Mobilní zobrazení: všechny bloky pod sebou */
   margin: 0 0 1rem 0;
-  border: 1px solid red;
 }
 
 /* Zajištění výchozího pořadí na mobilních zařízeních */
