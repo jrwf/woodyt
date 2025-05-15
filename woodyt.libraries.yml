@@ -17,6 +17,7 @@ base:
       css/article/article-initial-picture.css: {}
       css/article/article-content.css: {}
       css/article/article-gallery.css: {}
+      css/article/article-video.css: {}
     layout:
       css/layout.css: {}
     component:
