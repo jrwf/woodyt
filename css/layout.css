@@ -58,7 +58,7 @@ header .region.region-header,
 main .region.region-content,
 .region.region-sidebar-first,
 .region.region-sidebar-second,
-footer .region.region-footer {
+footer {
   padding: 1rem;
 }
 
@@ -90,8 +90,7 @@ footer .region.region-footer {
 
   main .region.region-content,
   .region.region-sidebar-first,
-  .region.region-sidebar-second,
-  footer .region.region-footer {
+  .region.region-sidebar-second {
     padding: 5rem 1rem;
   }
 

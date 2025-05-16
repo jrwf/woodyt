@@ -1,12 +1,13 @@
 .layout-container > footer {
     margin: 0;
-    padding: 0;
-    background-color: var(--secondary-color);
-    border-radius: 1rem 1rem 0 0;
+    /*padding: 0;*/
+    padding: 3rem 1rem;
 }
 
 .layout-container > footer .region.region-footer {
-    /*padding: 3rem;*/
-    border: 1px solid red;
+    margin: 0;
+    padding: 3rem 2rem 5rem 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem 1rem 0 0;
 }
 
