@@ -16,10 +16,12 @@ base:
       css/base/variables.css: {}
       css/base/variables.pcss.css: {}
       css/article/article.css: {}
+      css/article/contact.css: {}
       css/article/article-initial-picture.css: {}
       css/article/article-content.css: {}
       css/article/article-gallery.css: {}
       css/article/article-video.css: {}
+      css/user-profile.css: {}
     layout:
       css/layout.css: {}
     component:

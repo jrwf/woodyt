@@ -1,0 +1,42 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.contact-page.map {
+    aspect-ratio: 16 / 9; /* nebo 4 / 3, 1 / 1 atd. */
+    width: 100%;
+}
+
+.contact-page.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+    .contact-page {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-page .contact-block {
+        flex: 0 0 60%;
+    }
+    .contact-page .contact-block.address {
+        flex: 0 0 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}

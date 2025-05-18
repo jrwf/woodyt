@@ -1,0 +1,64 @@
+article.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+article.profile .field--name-user-picture {
+    margin: 0 2rem 3rem 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    top: 0.7rem;
+}
+
+article.profile .field--name-field-popis {
+}
+
+article.profile fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+article.profile fieldset:first-child {
+    margin: 0 2rem 1rem 0;
+    padding: 0;
+    width: fit-content;
+    flex: 0 0 auto;
+}
+
+article.profile fieldset legend {
+    display: none;
+}
+
+article.profile .field--name-field-telefon,
+article.profile .field--name-field-email,
+article.profile .field--name-field-web {
+    font-size: 1.8rem;
+    line-height: 160%;
+    margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    article.profile {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    article.profile .field--name-user-picture {
+        flex: 0 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}

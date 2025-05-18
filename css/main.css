@@ -18,6 +18,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   color: #333;
+  border: 10px solid navy;
 }
 
 /* Variables */
@@ -50,6 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.8rem;
+  line-height: 160%;
 }
 
 a {
